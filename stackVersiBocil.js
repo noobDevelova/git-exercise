@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 const create_stack = () => {
   let stack = [];
   return stack;
@@ -21,7 +29,7 @@ const kalimat_reversed = (stack, new_stack) => {
 let stack = create_stack();
 let reversed_stack = create_stack();
 
-let isi_stack = pushStack(stack, "randi");
+let isi_stack = pushStack(stack, "12345");
 console.log(isi_stack);
 
 let stack_dibalik = kalimat_reversed(isi_stack, reversed_stack);
