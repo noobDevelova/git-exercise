@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 const create_stack = () => {
   let stack = [];
   return stack;
@@ -16,6 +8,15 @@ const pushStack = (stack, kalimat) => {
   stack = filtered;
   return stack;
 };
+
+
+const isEmpty = (stack) => {
+   return stack.length() -1 == -1
+}
+
+const isFull = (stack) => {
+  return stack.length() -1 == 32
+}
 
 const kalimat_reversed = (stack, new_stack) => {
   for (let i = 0 - stack.length; i < stack.length; i++) {
