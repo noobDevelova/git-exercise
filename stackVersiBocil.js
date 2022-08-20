@@ -10,7 +10,7 @@ const pushStack = (stack, kalimat) => {
 };
 
 const kalimat_reversed = (stack, new_stack) => {
-  for (let i = 1 - stack.length; i < stack.length; i++) {
+  for (let i = 0 - stack.length; i < stack.length; i++) {
     let stackPoped = stack.pop();
 
     new_stack.push(stackPoped);
